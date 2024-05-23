@@ -1,0 +1,10 @@
+package org.example.fibonacci;
+
+public class Fibonacci {
+
+    public static long Fibonacci (int n) {
+        if (n <= 1) return n;
+        else return Fibonacci (n-1) + Fibonacci(n-2);
+    }
+
+}
